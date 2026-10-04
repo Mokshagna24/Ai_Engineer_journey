@@ -1,0 +1,25 @@
+i have done the topics which covers :
+    ->creating an environment
+    ->and wrote some function to perfrom some operations 
+    ->the main things i learned during this is that typehint and dogstring 
+
+By these typehint and dogstrings my code looks more professional and it can help to any one who tries to read or understand the 
+code a programmer wrote .....
+
+And after that i created another main file to import all these function so i have the importance of if "__name__" == "__main__"
+why is this used ?
+
+ ---> Python gives every file a variable called "__name__":
+
+ How the file is used	         Value of __name__	         Guard block runs?
+Run directly: python utils.py	     "__main__"	                   Yes
+Imported: from utils import ...	       "utils"	                    No
+
+
+The guard means "run this code only if this file is the one being executed, not if it was imported." 
+It lets one file work both as a reusable module (import its functions) 
+and as a standalone script (run it directly) without side effects.
+
+
+
+
